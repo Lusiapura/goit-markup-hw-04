@@ -211,11 +211,12 @@ img {
   margin-bottom: 30px;
   content: '';
   height: 120px;
+  width: 270px;
   background-size: 65.32px 70px;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 4px;
-  background-color: rgba(245, 244, 250, 1);
+  background-color: #f5f4fa;
 }
 
 .feature-list .item:nth-child(1):before {
@@ -274,15 +275,16 @@ img {
 
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.section:nth-child(n + 3) {
+/*.section:nth-child(n + 3) {
   padding-bottom: 94px;
 }
 
 .section:last-child {
   padding-bottom: 94px;
-}
+}*/
 
 .button {
   display: inline-block;
