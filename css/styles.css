@@ -206,7 +206,7 @@ img {
   margin-left: 30px;
 }
 
-.feature-list .item::before {
+/*.feature-list .item::before {
   display: block;
   margin-bottom: 30px;
   content: '';
@@ -233,7 +233,7 @@ img {
 
 .feature-list .item:nth-child(4):before {
   background-image: url(..//images/astronaut.svg);
-}
+}*/
 
 .section-works {
   display: flex;
@@ -415,4 +415,39 @@ img {
 
 .contact-address .item + .item {
   margin-top: 9px;
+}
+
+.item-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  fill: #212121;
+}
+
+.section-cliens {
+  display: flex;
+  align-items: center;
+}
+
+.cliens {
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+  cursor: pointer;
+}
+
+.section-cliens .item + .item {
+  margin-left: 30px;
+}
+
+.cliens:hover {
+  fill: var(--accent-color);
 }
