@@ -471,6 +471,12 @@ img {
   border: 1px solid var(--accent-color);
 }
 
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact {
   display: block;
   width: 44px;
@@ -497,12 +503,24 @@ img {
   justify-content: center;
 }
 
-.icon-footer .contact {
+.sotial .contact {
   fill: var(--white-color);
   background: #ffffff1a;
 }
 
-.text-footer {
+.sotial .contact:hover {
+  fill: var(--white-color);
+  background: var(--accent-color);
+}
+
+.sotial .text {
+  display: block;
+}
+
+.sotial {
+  display: flex;
+  width: 206px;
+  height: 80px;
   margin-top: 72px;
-  margin-left: ;
+  margin-bottom: 100px;
 }
