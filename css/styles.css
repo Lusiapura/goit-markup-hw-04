@@ -74,6 +74,11 @@ svg {
   align-items: center;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
 /*auth-nav*/
 .auth-nav {
   display: flex;
@@ -484,11 +489,6 @@ svg {
 .cliens:hover,
 .cliens:focus {
   fill: var(--accent-color);
-}
-
-.cliens:hover,
-.cliens:focus {
-  fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
@@ -521,8 +521,8 @@ svg {
   background-color: var(--accent-color);
 }*/
 
-.contact-icon:hover,
-.contact-icon:focus {
+.icon .contact-icon:hover,
+.icon .contact-icon:focus {
   fill: var(--white-color);
   background-color: var(--accent-color);
 }
