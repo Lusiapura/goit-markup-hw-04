@@ -441,6 +441,7 @@ svg {
 }
 
 .address {
+  display: flex;
   color: var(--address--);
   text-decoration: none;
 }
